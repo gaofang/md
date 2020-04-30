@@ -259,8 +259,8 @@ addSquare(1, 2);
 ```
 
 <slide :class="size-70" class="slide-top">
-```js
 	
+```js
 function flow(funcs) {
   const length = funcs ? funcs.length : 0
   let index = length
@@ -306,6 +306,7 @@ console.log(curryingMulti(2)(4)); // 8
 ```
 
 <slide :class="size-70" class="slide-top">
+	
 ```js
 function curryingMulti(x) {
     return function (y) {
@@ -319,8 +320,8 @@ console.log(double(5)); // 10
 ```
 
 <slide :class="size-70" class="slide-top">
-```js
 
+```js
 function progressCurrying(fn, args) {
     var _this = this
     var len = fn.length;
